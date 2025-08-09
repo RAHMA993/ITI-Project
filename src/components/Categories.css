@@ -1,0 +1,21 @@
+.small-carousel {
+    height: 650px; 
+    overflow: hidden;
+}
+
+.small-carousel img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.category-img {
+    transition: 0.5s ease;
+    border: 7px solid transparent;
+    background-size: cover;
+}
+
+.category-img:hover {
+    border: 7px solid #cf6f20; 
+    box-shadow: 0 0 10px rgba(207, 32, 32, 0.5);
+}
+
